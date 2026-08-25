@@ -8,7 +8,8 @@ PC installed with SCILAB.
 
 # PROGRAM: 
 
-```clc;
+```
+clc;
 close;
 M=input('Enter the Odd Filter Length =');
 Wc=input('Enter the Digital Cut off frequency =');
@@ -36,7 +37,8 @@ subplot(2,1,2);
 plot(2*fr,hzm_dB);
 xlabel('Normalized Digital Frequency W');
 ylabel('Magnitude in dB');
-title('Frequency Response of FIR LPF using Rectangular Window');```
+title('Frequency Response of FIR LPF using Rectangular Window');
+```
 # OUTPUT: 
 <img width="712" height="578" alt="image" src="https://github.com/user-attachments/assets/a2553977-8c2e-4089-8a03-1a56e5182079" />
 
@@ -51,7 +53,8 @@ Thus design of low pass FIR digital filter using-Rectangular-Window waveforms we
 PC installed with SCILAB. 
 
 # PROGRAM: 
-```clc;
+```
+clc;
 close;
 M=input('Enter the Odd Filter Length =');
 Wc=input('Enter the Digital Cut off frequency =');
@@ -79,7 +82,8 @@ subplot(2,1,2);
 plot(2*fr,hzm_dB);
 xlabel('Normalized Digital Frequency W');
 ylabel('Magnitude in dB');
-title('Frequency Response of FIR HPF using Rectangular Window');```
+title('Frequency Response of FIR HPF using Rectangular Window');
+```
 
 # OUTPUT: 
 <img width="732" height="578" alt="image" src="https://github.com/user-attachments/assets/faa7f09e-744e-4e47-a8ee-776dbf24b3af" />
@@ -95,7 +99,8 @@ PC installed with SCILAB.
 
 # PROGRAM: 
 
-```clc;
+```
+clc;
 close;
 M=input('Enter the Odd Filter Length =');
 Wc=input('Enter the Digital Cut off frequency =');
@@ -125,7 +130,8 @@ subplot(2,1,2);
 plot(2*fr,hzm_dB);
 xlabel('Normalized Digital Frequency W');
 ylabel('Magnitude in dB');
-title('Frequency Response of FIR BPF using Rectangular Window');```
+title('Frequency Response of FIR BPF using Rectangular Window');
+```
 # OUTPUT: 
 <img width="730" height="577" alt="image" src="https://github.com/user-attachments/assets/ca215be2-9ee9-4fc7-87b3-18fd2458d03b" />
 
@@ -139,7 +145,8 @@ Thus design of BAND pass FIR digital filter using-Rectangular-Window waveforms w
 PC installed with SCILAB. 
 
 # PROGRAM: 
-```clc;
+```
+clc;
 close;
 M=input('Enter the Odd Filter Length =');
 Wc=input('Enter the Digital Cut off frequency =');
@@ -169,7 +176,8 @@ subplot(2,1,2);
 plot(2*fr,hzm_dB);
 xlabel('Normalized Digital Frequency W');
 ylabel('Magnitude in dB');
-title('Frequency Response of FIR BSF using Rectangular Window');```
+title('Frequency Response of FIR BSF using Rectangular Window');
+```
 
 # OUTPUT: 
 <img width="707" height="582" alt="image" src="https://github.com/user-attachments/assets/977ca2db-2a45-48ae-874f-50e5942e6859" />
